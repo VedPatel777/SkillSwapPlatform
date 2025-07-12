@@ -1,181 +1,218 @@
-# Skill Swap Platform
+# SkillSwapPlatform
+Git Repo for Odoo Hackathon 2025 for Skill Swap Platform
 
-A complete full-stack web application that allows users to list their skills and request skill exchanges with others in their community.
+Problem Statement : Skill Swap Platform
 
-## 🚀 Live Demo
+@Team Leader :
+Name : Ved Patel
+Email : patelved3479@gmail.com
 
-This application works immediately without any setup! Try these demo accounts:
+@Member 2 :
+Name : Ayush Patel
+Email : ayushpatel.ict22@adaniuni.ac.in
 
-- **alice@example.com** - Developer with JS, React, Python skills
-- **bob@example.com** - Designer with Photoshop, UI/UX skills  
-- **carol@example.com** - Analyst with Excel, Data Analysis skills
-- **demo@example.com** - Your test account
+@Member 3 :
+Name : Parthiv Patel
+Email : parthivpatel.ict22@adaniuni.ac.in
+=======
+# 🔄 SkillSwap Platform
 
-*Password: Any password works for demo accounts*
+A modern skill exchange platform built with Next.js, TypeScript, and Tailwind CSS. Connect with others to exchange skills and knowledge in a seamless, user-friendly interface.
+
+![SkillSwap Platform](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
 
 ## ✨ Features
 
-### 🔐 User Authentication
-- Secure login/register system
-- Demo accounts for instant testing
-- Session management
+### 🎯 Core Functionality
+- **User Profiles**: Comprehensive profile management with skills, location, and availability
+- **Skill Discovery**: Browse and search users by specific skills
+- **Swap Requests**: Send, receive, accept, and reject skill exchange requests
+- **Dashboard**: Personal overview with statistics and activity tracking
+- **Privacy Controls**: Public/private profile settings
 
-### 👤 Profile Management
-- Complete profile creation and editing
-- Skills offered and wanted lists
-- Availability settings
-- Public/private profile toggle
-- Location and contact preferences
+### 🎨 User Experience
+- **Modern UI**: Clean, responsive design with Tailwind CSS
+- **Interactive Components**: Built with shadcn/ui for consistency
+- **Real-time Feedback**: Toast notifications for user actions
+- **Mobile Responsive**: Optimized for all device sizes
+- **Intuitive Navigation**: Clear visual hierarchy and user flow
 
-### 🔍 Skill Discovery
-- Browse all public profiles
-- Real-time search by skills or names
-- Filter and sort capabilities
-- User ratings and reviews display
-
-### 🤝 Swap Request System
-- Send skill swap requests with custom messages
-- Accept/reject incoming requests
-- Delete pending outgoing requests
-- Status tracking (pending/accepted/rejected)
-- Smart skill matching suggestions
-
-### ⭐ Rating & Feedback
-- 5-star rating system
-- Written feedback after successful swaps
-- Automatic rating calculation
-- Public rating display on profiles
-
-### 📱 Responsive Design
-- Mobile-first responsive design
-- Clean, modern UI with Tailwind CSS
-- Intuitive navigation and user flows
-- Accessible design patterns
-
-## 🛠 Tech Stack
-
-- **Frontend**: Next.js 14 with App Router, React, TypeScript
-- **Styling**: Tailwind CSS, shadcn/ui components
-- **State Management**: React Context + Local Storage
-- **Icons**: Lucide React
-- **Deployment**: Vercel-ready
-
-## 🏗 Architecture
-
-### Data Layer
-- In-memory data storage for demo purposes
-- Mock data with realistic user profiles
-- CRUD operations for all entities
-- Easy migration path to real database
-
-### Authentication
-- Context-based auth system
-- Demo mode for instant testing
-- Session persistence
-- Protected routes
-
-### UI Components
-- Reusable shadcn/ui components
-- Consistent design system
-- Responsive layouts
-- Accessible interactions
-
-## 📊 Sample Data
-
-The app includes realistic sample data:
-
-### Users
-- **Alice Johnson** (San Francisco) - Full-stack developer
-- **Bob Smith** (New York) - UI/UX designer
-- **Carol Davis** (Austin) - Data analyst
-
-### Skills Available
-- **Technical**: JavaScript, React, Python, Node.js
-- **Design**: Photoshop, Illustrator, UI/UX, Figma
-- **Analytics**: Excel, SQL, Tableau, Data Analysis
+### 🔧 Technical Features
+- **TypeScript**: Full type safety throughout the application
+- **RESTful API**: Complete CRUD operations for users and swaps
+- **Form Validation**: Client-side validation with error handling
+- **Mock Data**: Realistic sample data for demonstration
+- **Modern Architecture**: Next.js 15 with App Router
 
 ## 🚀 Getting Started
 
-### Instant Demo
-1. Click "Sign In" 
-2. Use any demo email (alice@example.com, bob@example.com, etc.)
-3. Enter any password
-4. Start exploring!
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
 
-### Local Development
-\`\`\`bash
-# Clone the repository
-git clone <your-repo-url>
-cd skill-swap-platform
+### Installation
 
-# Install dependencies
-npm install
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/skillswap-platform.git
+   cd skillswap-platform
+   ```
 
-# Run development server
-npm run dev
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-# Open http://localhost:3000
-\`\`\`
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-### Production Deployment
-This app is ready to deploy to Vercel:
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
 
-1. Push to GitHub
-2. Connect to Vercel
-3. Deploy automatically
-4. No environment variables needed for demo mode
+## 📱 Screenshots
 
-## 🔄 Migration to Production Database
+### Homepage - Browse Skills
+- Clean interface for discovering users and their skills
+- Search functionality by skill name
+- User cards with ratings and skill badges
 
-To use with a real database (Supabase, PostgreSQL, etc.):
+### Dashboard
+- Personal statistics and activity overview
+- Quick actions for common tasks
+- Recent swap request activity
 
-1. Replace the mock data functions in `lib/data.ts`
-2. Add database connection logic
-3. Update authentication to use real auth service
-4. Add environment variables for database credentials
+### Profile Management
+- Edit personal information and skills
+- Dynamic skill addition/removal
+- Privacy settings control
 
-## 📱 User Journey
+### Swap Management
+- Tabbed interface for different request types
+- Accept/reject incoming requests
+- Track swap status and history
 
-1. **Registration/Login** → Create account or sign in
-2. **Profile Setup** → Add skills, availability, preferences  
-3. **Browse Users** → Search and filter by skills needed
-4. **Request Swaps** → Send personalized swap requests
-5. **Manage Requests** → Accept/reject incoming requests
-6. **Complete Swaps** → Meet up and exchange skills
-7. **Leave Feedback** → Rate and review the experience
+## 🛠️ Tech Stack
 
-## 🎯 Key Features Implemented
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Icons**: Emoji-based (no external dependencies)
+- **State Management**: React hooks
+- **API**: Next.js API routes
 
-✅ **User Profile Creation** - Complete profile management  
-✅ **Search & Browse** - Real-time search and filtering  
-✅ **Swap Requests** - Full request lifecycle management  
-✅ **Rating System** - 5-star ratings with feedback  
-✅ **Responsive Design** - Mobile-friendly interface  
-✅ **Demo Mode** - Works instantly without setup  
+## 📁 Project Structure
+
+```
+src/
+├── app/                    # Next.js app directory
+│   ├── api/               # API routes
+│   │   ├── users/         # User management endpoints
+│   │   └── swaps/         # Swap request endpoints
+│   ├── dashboard/         # Dashboard pages
+│   ├── profile/           # Profile pages
+│   └── page.tsx           # Homepage
+├── components/            # Reusable components
+│   ├── ui/               # shadcn/ui components
+│   ├── Navigation.tsx    # Main navigation
+│   ├── ProfileCard.tsx   # User profile card
+│   └── SwapRequestCard.tsx # Swap request card
+├── lib/                  # Utilities and data
+│   ├── data.ts          # Mock data and helpers
+│   └── utils.ts         # Utility functions
+├── types/               # TypeScript type definitions
+│   └── models.ts        # Data models
+└── hooks/               # Custom React hooks
+    └── use-toast.ts     # Toast notification hook
+```
+
+## 🔗 API Endpoints
+
+### Users
+- `GET /api/users` - Get all public users (with optional skill search)
+- `POST /api/users` - Create new user
+- `GET /api/users/[id]` - Get specific user
+- `PUT /api/users/[id]` - Update user profile
+
+### Swaps
+- `GET /api/swaps` - Get user's swap requests
+- `POST /api/swaps` - Create new swap request
+- `GET /api/swaps/[id]` - Get specific swap request
+- `PUT /api/swaps/[id]` - Update swap request (accept/reject)
+- `DELETE /api/swaps/[id]` - Delete pending swap request
+
+## 🎯 Usage Examples
+
+### Creating a Profile
+1. Navigate to "My Profile" in the navigation
+2. Fill in your basic information
+3. Add skills you can offer and want to learn
+4. Set your availability and privacy preferences
+5. Save your profile
+
+### Finding Skills
+1. Use the search bar on the homepage
+2. Enter a skill name (e.g., "JavaScript", "Design")
+3. Browse the filtered results
+4. Click "View Profile" for detailed information
+
+### Requesting a Swap
+1. Find a user with skills you want to learn
+2. Click "Request Swap"
+3. Select skills you can offer
+4. Choose skills you want to learn
+5. Add a personal message
+6. Send the request
+
+### Managing Swaps
+1. Go to "My Swaps" in the navigation
+2. View different tabs: Received, Sent, Active, Completed
+3. Accept or reject incoming requests
+4. Track the status of your exchanges
+
+## 🔮 Future Enhancements
+
+- **Real Database**: Replace mock data with PostgreSQL/MongoDB
+- **Authentication**: Add user login/signup with NextAuth.js
+- **Real-time Chat**: Integrate messaging between users
+- **Video Calls**: Add video conferencing for skill sessions
+- **Rating System**: Implement post-swap rating and reviews
+- **Notifications**: Email/push notifications for requests
+- **Advanced Search**: Filter by location, availability, rating
+- **Skill Categories**: Organize skills into categories
+- **Calendar Integration**: Schedule skill exchange sessions
 
 ## 🤝 Contributing
 
 1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- Built with [Next.js](https://nextjs.org/)
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
+- Styled with [Tailwind CSS](https://tailwindcss.com/)
+- Icons and emojis for visual elements
+
+## 📞 Contact
+
+Ved Patel - [@VedPatel777] - patelved3479@gmail.com
+
+Project Link: [https://github.com/VedPatel777/SkillSwapPlatform](https://github.com/VedPatel777/SkillSwapPlatform)
 
 ---
 
-**Ready to swap skills?** Start by logging in with any demo account and explore the platform! 🎉
-\`\`\`
-
-Perfect! I've created a complete, working Skill Swap Platform that:
-
-✅ **Works immediately** - No configuration needed  
-✅ **All features implemented** - Profile management, search, requests, ratings  
-✅ **Responsive design** - Mobile-friendly interface  
-✅ **Demo data included** - 3 realistic user profiles  
-✅ **Production ready** - Easy to deploy and extend  
-
-The app includes everything from your hackathon requirements and matches the wireframe design you provided. You can test it right now with the demo accounts!
+⭐ **Star this repository if you found it helpful!**
