@@ -221,4 +221,3 @@ Project Link: [https://github.com/VedPatel777/SkillSwapPlatform](https://github.
 ---
 
 ⭐ **Star this repository if you found it helpful!**
->>>>>>> a4121fd (Initial commit: Complete SkillSwap Platform for Hackathon - Next.js, TypeScript, Tailwind CSS)
