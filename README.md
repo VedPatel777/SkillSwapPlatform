@@ -58,8 +58,8 @@ A modern skill exchange platform built with Next.js, TypeScript, and Tailwind CS
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/skillswap-platform.git
-   cd skillswap-platform
+   git clone https://github.com/VedPatel777/SkillSwapPlatform.git
+   cd SkillSwapPlatform
    ```
 
 2. **Install dependencies**
@@ -111,30 +111,6 @@ A modern skill exchange platform built with Next.js, TypeScript, and Tailwind CS
 - **State Management**: React hooks
 - **API**: Next.js API routes
 
-## 📁 Project Structure
-
-```
-src/
-├── app/                    # Next.js app directory
-│   ├── api/               # API routes
-│   │   ├── users/         # User management endpoints
-│   │   └── swaps/         # Swap request endpoints
-│   ├── dashboard/         # Dashboard pages
-│   ├── profile/           # Profile pages
-│   └── page.tsx           # Homepage
-├── components/            # Reusable components
-│   ├── ui/               # shadcn/ui components
-│   ├── Navigation.tsx    # Main navigation
-│   ├── ProfileCard.tsx   # User profile card
-│   └── SwapRequestCard.tsx # Swap request card
-├── lib/                  # Utilities and data
-│   ├── data.ts          # Mock data and helpers
-│   └── utils.ts         # Utility functions
-├── types/               # TypeScript type definitions
-│   └── models.ts        # Data models
-└── hooks/               # Custom React hooks
-    └── use-toast.ts     # Toast notification hook
-```
 
 ## 🔗 API Endpoints
 
